@@ -51,6 +51,25 @@
  echo "<br>";
  for($i=0;$i<10;$i++) changFn();//循环执行10次,打印:1 1 1 1 1 1 1 1 1 1
 
+ echo "<br>";
+//  变量函数:实际就是把函数赋值给变量,让变量进行调用
+
+function a($a,$b){
+  return $a+$b;
+}
+function b($a,$b){
+  return $a *$a + $b*$b;
+}
+function c($a,$b){
+  return $a*$a*$a+$b*$b*$b;
+}
+
+// $result="a";//这里用引号包裹函数
+// echo "结果:".$result(2,3);//打印5
+// $result="b";
+// echo "结果:".$result(2,3);//打印13,4+9
+$result="c";
+echo "结果:".$result(2,3);//打印35,8+27
   ?>
 </body>
 
