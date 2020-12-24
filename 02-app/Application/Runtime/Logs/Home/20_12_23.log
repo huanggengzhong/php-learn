@@ -1,0 +1,20 @@
+[ 2020-12-23T23:09:30+08:00 ] ::1 /09-app/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000994s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007697s ]
+
